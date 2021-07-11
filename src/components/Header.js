@@ -29,7 +29,7 @@ function Header() {
                <div className="hidden md:flex place-items-center pl-2 flex-grow h-full w-auto border-solid border border-gray-200 rounded-md">
                    <input className="text-xs p-2 focus:outline-none flex-grow" type="text" placeholder='Cari di Tokopedia'/>
                     <div className="bg-gray-100 w-8 h-8 flex place-items-center mx-auto rounded-r-md cursor-pointer hover:bg-gray-200">
-                        <SearchIcon className="h-5 w-5 text-gray-500 mx-auto"/>
+                        <SearchIcon className="h-5 w-5 text-gray-400 mx-auto"/>
                     </div>
                </div>
                 <div className="flex place-items-center md:w-36 justify-between md:flex-grow-0 border-r-2 border-gray-300 px-2 md:px-4">
@@ -43,7 +43,7 @@ function Header() {
                         <MailIcon className="h-5 w-5 text-gray-500" />
                     </div>
                 </div>
-                <div className="flex place-items-center px-2">
+                <div className="flex place-items-center px-2 md:pl-4">
                     <Image className="rounded-full" width={30} height={30} src="https://i.ibb.co/JKHpjnq/default-toped-16.jpg"/>
                     <p className="text-xs ml-2">Mudzik</p>
                 </div>
